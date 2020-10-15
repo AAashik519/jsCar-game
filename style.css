@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sansita Swashed', cursive;
+}
+.hide{display: none;}
+.carGame{
+   
+    background: url("img/nature-park-trees-path-scenery-cartoon-sunny-day-vector-illustration-graphic-design-153027430.jpg") no-repeat center; 
+    background-size:cover;
+  
+}
+.car{
+    width: 50px; height: 80px;
+    position: absolute;
+    bottom:120px;
+    background-image: url( img/caaehdf.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+      
+
+    
+}
+.lines{
+    width: 10px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    margin-left: 195px;
+}
+.gameArea{
+    width: 400px;
+    height: 100vh;
+    background-color:#2c3e50 ;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border-right: 7px dashed #ecf0f1;
+    border-left: 7px dashed  #ecf0f1;
+
+}
+.enemy{
+    width: 50px; height: 80px; 
+    position: absolute;
+    bottom:120px;
+    background-image: url( img/racing-car-149034_960_720.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.score{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    background:#34495e;
+    text-align: center; 
+    width: 300px;
+   
+    color: white;
+    box-shadow: 0 5px 5px #777;
+    line-height: 70px;
+    font-size: 1.3rem;
+}
+.startScreen{
+    position: absolute;
+    background-color:#ee52f3;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 1;
+    text-align: center;
+    border: 1px solid #ff6b6b;
+    padding: 15px;
+    margin: auto;
+    width: 50%;
+    cursor: pointer;
+    letter-spacing: 5;
+    font-size: 20px;
+    word-spacing: 3;
+    line-height: 30px;
+    /* text-transform: uppercase; */
+    box-shadow: 0 5px 5px #777;
+}
